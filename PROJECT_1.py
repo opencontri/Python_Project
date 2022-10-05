@@ -40,6 +40,9 @@ print(f"You choose {comp}")
 
 if a == None:
     print("The game is tie!")
+    
+elif a:
+    print("You Win!")
 
 
 # AUTHOR : RRO-SHAN
