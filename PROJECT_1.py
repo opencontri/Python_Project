@@ -21,7 +21,9 @@ def game_win(comp,you):
         if you=="s":
             return False
         elif you == "w":
-            return True    
+            return True
+print("Comp Turn: Snake(s) Water(w) or Gun(g) ? ")
+rand_number= random.randint(1,3)
 
 if rand_number == 1:
     comp = "s"
